@@ -6,15 +6,16 @@ h1 {
 
 .calculator-container {
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
-    width: auto;
-    height: auto;
+    align-items: center;
+    flex-flow: column wrap;
 }
 
 .display {
-
+    width: 14em;
+    height: 2em;
+    outline: auto;
+    
 }
 
 .key-row {
@@ -25,10 +26,43 @@ h1 {
     height: auto;
 }
 
-.key {
+#row3 #row4 #row 5 {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: auto;
-    height: auto;
+    align-items: flex-start;
+    align-self: flex-start;
+    flex-wrap: wrap;
 }
+
+#row2 {
+    display: flex;
+    align-self: flex-start;
+}
+
+#equal {
+    width: 5em;
+    height: 14em;
+    margin-right: 0.4em;
+    margin-bottom: 0.4em;
+    border-radius: 4px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.key {
+    border: 1px solid #353535;
+    width: 4em;
+    height: 4em;
+    margin-right: 0.4em;
+    margin-bottom: 0.4em;
+    border-radius: 4px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ */
