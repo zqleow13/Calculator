@@ -8,7 +8,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: column wrap;
+    flex-flow: column;
 }
 
 .display {
@@ -26,16 +26,10 @@ h1 {
     height: auto;
 }
 
-#row3 #row4 #row 5 {
-    display: flex;
-    align-items: flex-start;
-    align-self: flex-start;
-    flex-wrap: wrap;
-}
 
 #row2 {
     display: flex;
-    align-self: flex-start;
+    align-self: stretch;
 }
 
 #equal {
