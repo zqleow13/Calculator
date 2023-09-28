@@ -18,7 +18,7 @@ h1 {
     
 }
 
-.key-row {
+/* .key-row {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,9 +30,9 @@ h1 {
 #row2 {
     display: flex;
     align-self: stretch;
-}
+} */
 
-#equal {
+/* #equal {
     width: 5em;
     height: 14em;
     margin-right: 0.4em;
@@ -57,6 +57,6 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
- */
+ 
