@@ -1,32 +1,46 @@
 const numberButtons = document.querySelectorAll('[data-key]');
 const operationButtons = document.querySelectorAll('[data-action]');
+let displayOutput = document.querySelector('.display');
+let display = 0;
 
 // to clear numbers in display
-clear() {
-
+function clear() {
+operationButtons.forEach(element) {
+    if (operationButtons.getAttribute('data-action') === 'clear') {
+        //updateDisplay('0');
+    } 
+}
 }
 
 // to delete numbers in display
-delete() {
+function delete() {
 
 }
 
 // to show numbers in display
-appendNumber(number) {
-
+function appendNumber(number) {
+    for (let i = 0; i < number; i++) {
+        number = numberButtons.innerText;
+        display++;
+    }
+    
 }
 
 // to activate operations when clicked
-chooseOperation(operation) {
+function chooseOperation(operation) {
 
 }
 
 // to compute the input
-compute() {
+function compute() {
 
 }
 
 // to update display
-updateDisplay() {
-    
+function updateDisplay() {
+    numberButtons.addEventListener('click' , e) => {
+        if (e.target.matches('[data-key')) {
+
+        }
+    }
 }
