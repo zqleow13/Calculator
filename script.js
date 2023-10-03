@@ -19,8 +19,9 @@ class Calculator {
     }
 
     // To add number to display when you click a number
+    // Reason why I changed currentOperand and number to string is because I want JS to not add both as integers but rather just append both.
     appendNumber(number) {
-        this.currentOperand = number
+        this.currentOperand = this.currentOperand.toString() + number.toString()
     }
 
     // To activate operation when you click on any of the operations
