@@ -1,3 +1,7 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
 h1 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -16,9 +20,17 @@ body {
     align-items: center;
     min-height: 100vh;
     grid-template-columns: repeat(4, 100px);
-    grid-template-rows: auto;
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+}
 
-.display {
+.calculator-container > button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid white;
+    outline: none;
+    background-color: rgba(255, 255, 255, .75);
+}
+/* .display {
     width: 14em;
     height: 2em;
     outline: auto;
@@ -38,7 +50,7 @@ body {
 
 #equal {
     grid-row: span 4;
-}
+} */
 
 
 
